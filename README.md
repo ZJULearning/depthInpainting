@@ -1,4 +1,4 @@
-# depthInpainting： Depth Image Inpainting: Improving Low Rank Completion with Low Gradient Regularization
+# LRLG： Depth Image Inpainting: Improving Low Rank Completion with Low Gradient Regularization
 
 Table of Contents
 =================
@@ -28,8 +28,8 @@ LRLG is an algorithm for single depth image inpainting.
 ### Compared Algorithms
 
 
-+ [LR](https://epubs.siam.org/doi/abs/10.1137/080738970)
-+ [LRTV]https://ieeexplore.ieee.org/abstract/document/7113897/) 
++ [LR] (https://epubs.siam.org/doi/abs/10.1137/080738970)
++ [LRTV] (https://ieeexplore.ieee.org/abstract/document/7113897/) 
 + LRL0: a designed based-line, which employs L0 gradient minimization.
 
 
