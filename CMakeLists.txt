@@ -21,7 +21,7 @@ find_package( OpenCV REQUIRED )
 # add_library(mgl1 SHARED IMPORTED)
 # set_property(TARGET mgl1 PROPERTY IMPORTED_LOCATION /usr/local/Cellar/mathgl/2.3.3_1/lib/libmgl.7.4.0.dylib)
 # depthInpaint
-file(GLOB LRTV_SRC_FILES "*.cpp")
+file(GLOB LRTV_SRC_FILES "src/*.cpp")
 add_executable(depthInpainting ${LRTV_SRC_FILES})
 target_link_libraries(depthInpainting ${OpenCV_LIBS})
 
